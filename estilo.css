@@ -1,0 +1,211 @@
+@charset "ISO-8859-1";
+/*  Tipo de letra para los formularios*/
+@import url('https://fontsfonts.googleapis.com/css2?family=Concert+One&display=swap');
+/*  Tipo de letra para el body*/
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+/*  Tipo de letra para titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@900&display=swap');
+
+/*
+  COLORES USADOS
+  --TITULOS
+  #5F9E8B
+  --BOTONES
+  #3fb8af
+  --FONDO
+  background: rgb(9,188,186);
+  background: linear-gradient(90deg, rgba(9,188,186,1) 0%, rgba(78,90,214,1) 22%, rgba(78,90,214,1) 76%, rgba(9,188,186,1) 100%);
+  'Signika', sans-serif;*/
+
+
+  /* CSS de la pagina 1*/
+
+body{
+
+    padding: 0;
+    margin: 0;
+    font-family:'Concert One', cursive; 
+    background: rgb(63,184,175);
+    background: linear-gradient(90deg, rgba(63,184,175,1) 0%, rgba(78,142,214,1) 22%, rgba(78,142,214,1) 76%, rgba(63,184,175,1) 100%);
+    padding: 40px;
+}
+h1{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 50px;
+}
+
+p{
+  color: black;
+  font-family: 'Signika', sans-serif;
+}
+.contenederportada{
+height:50%;
+display: grid;
+grid-template-columns: 50% 50%;
+border-radius: 10px;
+overflow: hidden;
+
+
+}
+
+.login-izquierda{
+  display: flex;
+  flex-direction: column ;
+  justify-content: content;
+   padding-left: 150px;
+   background-color: white;
+}
+
+.login-derecha{
+  
+  background: #5F9E8B;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.login-derecha img{
+  width: 75%;
+ 
+}
+
+.titulo-login{
+    margin-bottom: 15px;
+
+
+}
+.titulo-login p{
+ font-size: 25px;
+ }
+
+ .titulo-login h1{
+  color: #5F9E8B;
+ }
+.fomulario-inicio{
+  width: 450px;
+
+  
+  
+}
+
+.formulario-valores {
+   display: inline-block;
+   background-color: white;
+   margin-bottom: 10px;
+   position: relative;
+   padding:  0 10px;
+   
+   font-size: 20px;
+}
+a{
+	
+	
+        text-decoration: none; 
+        font-weight: bold; 
+        color: black;
+}
+
+
+.contenederportada input{
+ 
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  height: 40px;
+  padding: 0 2rem;
+  width: 125%;
+  outline: none;
+  width: 125%;
+  margin-top: 5px;
+ 
+
+}
+
+
+.enviar{
+  border: none;
+  background-color:#3fb8af;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 10px 20px;
+  color: #ffffff; 
+  border: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 85px;
+
+}
+ 
+
+  /* CSS del formulario ciencia*/
+  .formc{
+   
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: grid;
+    margin: auto;
+    place-items: center;
+
+  }
+  label {
+    
+    margin-top: 20px;
+    color: #333333; 
+    font-weight: bold;
+    display: grid;
+    font-size: 18px;
+  }
+  .titulo-form{
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+    font-weight: 500;
+  }
+   .titulo-form p{
+   font-size: 25px;
+   }
+
+  .titulo-form h1{
+  color: #5F9E8B;
+  }
+
+  .formularioC input{
+    width: 125%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+
+
+  }
+ 
+
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+   .enviarForm{
+    border: none;
+    background-color:#3fb8af;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 10px 20px;
+    color: #ffffff; 
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
